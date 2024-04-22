@@ -130,7 +130,7 @@ def modifier_convention_page():
 
             st.success("Modification enregistrée avec succès !")
             #Refresh the page
-            st.experimental_rerun() 
+            st.rerun() 
 
 
 # Appeler la fonction principale
