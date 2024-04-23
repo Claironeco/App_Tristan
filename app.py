@@ -20,7 +20,7 @@ def main():
     st.sidebar.title("Navigation")
 
     # Afficher les boutons pour chaque page
-    page = st.sidebar.radio("Aller à :", ("Accueil", "Créer une convention", "Modifier une convention", "Enregistrer une opération"))
+    page = st.sidebar.radio("Aller à :", ("Accueil", "Créer une convention", "Modifier une convention", "Enregistrer une opération", "Modifier une opération sur une convention"))
 
     # Afficher la page sélectionnée
     if page == "Accueil":
@@ -31,6 +31,8 @@ def main():
         modifier_convention_page()
     elif page == "Enregistrer une opération":
         enregistrer_operation_page()
+    elif page == "Modifier une opération sur une convention":
+        modifier_logs_page()
 
 # Fonction pour afficher la page "Accueil"
 def accueil_page():
@@ -130,8 +132,56 @@ def modifier_convention_page():
 
             st.success("Modification enregistrée avec succès !")
             #Refresh the page
-            st.experimental_rerun() 
+            st.rerun() 
 
+# Fonction pour afficher la page "Modifier une opération sur les conventions"
+def modifier_logs_page():
+    st.title("Modifier une opération sur les conventions")
+
+    # Charger les données des opérations sur les conventions
+    logs_df = load_data("logs")
+
+    # Afficher les Opérations sur les conventions dans un tableau
+    st.subheader("Opérations sur les conventions :")
+    st.write(logs_df)
+
+    # Sélectionner une ligne à modifier
+    selected_index = st.number_input("Entrez l'index de la ligne à modifier :", min_value=0, max_value=len(logs_df)-1, value=0, step=1)
+
+    
+    if 'Btn_affiche_clicked' not in st.session_state:
+        st.session_state.Btn_affiche_clicked = False
+    
+    def click_button():
+        st.session_state.Btn_affiche_clicked = True
+        
+    st.button("Afficher la ligne sélectionnée",on_click=click_button)
+
+    if st.session_state.Btn_affiche_clicked:
+        
+        # Afficher les détails de la ligne sélectionnée
+        selected_row = logs_df.iloc[selected_index]
+        st.write("Détails de la ligne sélectionnée :")
+        st.write(selected_row)
+
+        # Afficher les champs de saisie pour modifier la ligne
+        st.subheader("Modifier les informations :")
+        new_values = {}
+        for column in logs_df.columns:
+            new_value = st.text_input(f"Modifier {column} :", value=selected_row[column], key=f"{column}_{selected_index}")
+            new_values[column] = new_value
+
+        # Bouton pour enregistrer les modifications
+        if st.button("Enregistrer les modifications", key="enregistrer_modifs"):
+            # Mettre à jour la ligne sélectionnée dans le DataFrame
+            logs_df.loc[selected_index] = pd.Series(new_values)
+
+            # Enregistrer les modifications dans le fichier logs.csv
+            save_data("logs", logs_df)
+
+            st.success("Modification enregistrée avec succès !")
+            #Refresh the page
+            st.rerun() 
 
 # Appeler la fonction principale
 if __name__ == "__main__":
