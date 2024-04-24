@@ -89,10 +89,14 @@ def creer_convention_page():
 
     # Bouton pour enregistrer la convention
     if st.button("Enregistrer"):
-        # Créer un DataFrame avec les nouvelles données
-        new_data = pd.DataFrame([user_inputs])
-        save_data("convention", pd.concat([convention_df, new_data], ignore_index=True))
-        st.success("Convention enregistrée avec succès !")
+        # Vérifier que tous les champs sont remplis
+        if all(user_inputs.values()):
+            # Créer un DataFrame avec les nouvelles données
+            new_data = pd.DataFrame([user_inputs])
+            save_data("convention", pd.concat([convention_df, new_data], ignore_index=True))
+            st.success("Convention enregistrée avec succès !")
+        else:
+            st.warning("Veuillez remplir tous les champs avant d'enregistrer la convention.")
 
 # Fonction pour afficher la page "Enregistrer une opération"
 def enregistrer_operation_page():
@@ -100,8 +104,8 @@ def enregistrer_operation_page():
     st.write("Veuillez remplir les informations suivantes :")
 
     # Obtenir les noms de colonnes du DataFrame
-    convention_df = load_data("logs")
-    column_names = convention_df.columns.tolist()
+    logs_df = load_data("logs")
+    column_names = logs_df.columns.tolist()
     user_inputs = {}
 
     # Afficher les champs de saisie pour chaque colonne
@@ -109,12 +113,16 @@ def enregistrer_operation_page():
         user_input = st.text_input(f"Saisir {column}", "")
         user_inputs[column] = user_input
 
-    # Bouton pour enregistrer l'opération sur la convention
+    # Bouton pour enregistrer l'opération
     if st.button("Enregistrer"):
-        # Créer un DataFrame avec les nouvelles données
-        new_data = pd.DataFrame([user_inputs])
-        save_data("logs", pd.concat([convention_df, new_data], ignore_index=True))
-        st.success("Opération sur la convention enregistrée avec succès !")
+        # Vérifier que tous les champs sont remplis
+        if all(user_inputs.values()):
+            # Créer un DataFrame avec les nouvelles données
+            new_data = pd.DataFrame([user_inputs])
+            save_data("logs", pd.concat([logs_df, new_data], ignore_index=True))
+            st.success("Opération sur la convention enregistrée avec succès !")
+        else:
+            st.warning("Veuillez remplir tous les champs avant d'enregistrer l'opération.") 
 
 # Fonction pour afficher la page "Modifier une convention"
 def modifier_convention_page():
@@ -130,17 +138,36 @@ def modifier_convention_page():
     # Sélectionner une ligne à modifier
     selected_index = st.number_input("Entrez l'index de la ligne à modifier :", min_value=0, max_value=len(convention_df)-1, value=0, step=1)
 
-    
+    # Définir une variable de session pour suivre l'état du bouton "Afficher la ligne sélectionnée"
     if 'Btn_affiche_clicked' not in st.session_state:
         st.session_state.Btn_affiche_clicked = False
-    
+
+    # Fonction pour gérer le clic sur le bouton "Afficher la ligne sélectionnée"
     def click_button():
         st.session_state.Btn_affiche_clicked = True
-        
-    st.button("Afficher la ligne sélectionnée",on_click=click_button)
 
+    # Afficher les boutons dans une colonne Bootstrap
+    col1, col2 = st.columns(2)
+
+    # Bouton "Afficher la ligne sélectionnée"
+    with col1:
+        if st.button("Modifier la ligne sélectionnée", on_click=click_button):
+            st.session_state.Btn_affiche_clicked = True
+
+    # Bouton "Supprimer la ligne sélectionnée"
+    with col2:
+        if st.button("Supprimer la ligne sélectionnée", key="supprimer_ligne"):
+            # Supprimer la ligne sélectionnée du DataFrame
+            convention_df.drop(selected_index, inplace=True)
+            # Réinitialiser les index du DataFrame
+            convention_df.reset_index(drop=True, inplace=True)
+            # Enregistrer les modifications dans le fichier convention.csv
+            save_data("convention", convention_df)
+            st.success("Ligne supprimée avec succès !")
+            st.rerun()
+
+    # Vérifier si le bouton a été cliqué
     if st.session_state.Btn_affiche_clicked:
-        
         # Afficher les détails de la ligne sélectionnée
         selected_row = convention_df.iloc[selected_index]
         st.write("Détails de la ligne sélectionnée :")
@@ -162,8 +189,9 @@ def modifier_convention_page():
             save_data("convention", convention_df)
 
             st.success("Modification enregistrée avec succès !")
-            #Refresh the page
-            st.rerun() 
+            # Rafraîchir la page
+            st.experimental_rerun()
+
 
 # Fonction pour afficher la page "Modifier une opération sur les conventions"
 def modifier_logs_page():
@@ -186,7 +214,24 @@ def modifier_logs_page():
     def click_button():
         st.session_state.Btn_affiche_clicked = True
         
-    st.button("Afficher la ligne sélectionnée",on_click=click_button)
+    # Afficher les boutons dans une colonne Bootstrap
+    col1, col2 = st.columns(2)
+
+    # Bouton "Afficher la ligne sélectionnée"
+    with col1:
+        if st.button("Modifier la ligne sélectionnée", on_click=click_button):
+            st.session_state.Btn_affiche_clicked = True
+
+    # Bouton "Supprimer la ligne sélectionnée"
+    with col2:
+        if st.button("Supprimer la ligne sélectionnée", key="supprimer_ligne"):
+            # Supprimer la ligne sélectionnée du DataFrame
+            logs_df.drop(selected_index, inplace=True)
+            # Réinitialiser les index du DataFrame
+            logs_df.reset_index(drop=True, inplace=True)
+            # Enregistrer les modifications dans le fichier logs.csv
+            save_data("logs", logs_df)
+            st.success("Opération supprimée avec succès !")
 
     if st.session_state.Btn_affiche_clicked:
         
