@@ -1,15 +1,14 @@
 # App_Tristan
 Application pour automatiser les demandes et avoir un excel en sortie
 
--Extraire les informations de conventions et de logs 
-    -Mettre en forme dans un excel correctement 
-    -Mettre une page par convention 
-    -Faire un bilan global sur la première page
--Faire des accès différencié aux différentes applications 
-    -Ne pas avoir à faire de login à chaque fois 
-    -Faire un premier login pour avoir accès à l'appli (tout accès pour certains et accès limité pour les autres)
-    -Mettre qui a fait l'opération sur les logs des modifs
-    -Utiliser test_restreint_access pour modifier le code comme il faudrait
--Pouvoir supprimé des lignes pour les conventions et les logs
--Supprimer la possibilité d'avoir des champs libres
-
+-Operation: 
+    -Mettre qui a fait la modif
+    -Mettre la date automatiquement
+    -Avoir des choix limité pour certains champs
+-Excel 
+    -Utiliser les fichiers conventions et logs générés ne pas demander à l'utilisateur
+    -Faire un excel comme tristan 
+        -Remplir chaque page avec l'info des conventions et les logs
+        -Faire une page de bilan au départ
+-Generer des camemberts: 
+    -Faire de jolis camemberts

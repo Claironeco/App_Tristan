@@ -1,0 +1,432 @@
+Date_ajout,Libellé,nPEP,Nature de la dépense,Année d'imputation,Type de dépense,Bénéficiaire,Libellé,Numéro OM,Numéro EJ,Numéro Ligne,Montant de la dépense (HTR),Solde
+,Subvention d'État,SE,Investissement,2024,Commande,Econocom,Ordinateur Grégory Corcos,,E2024000139,,2974.44,OK
+,Subvention d'État,SE,Fonctionnement,2024,Commande,Econocom,Garantie ordinateur Grégory Corcos,,E2024000139,,82.32,OK
+,Subvention d'État,SE,Fonctionnement,2024,Commande,CASD,Location box Matéo Moglia,,E2024000138,,407.0,OK
+,Subvention d'État,SE,Fonctionnement,2024,EJ,Voyages C. Mathez,A / R Yves le Yaouanq ,60377,E2023026649,,1509.7,OK
+,Subvention d'État,SE,Fonctionnement,2024,EJ,Chris-Bistrot Augustin,Diner 3 personnes  08/11/2023,,E2023024368,,135.31,OK
+,Subvention d'État,SE,Fonctionnement,2024,Mission,Karl Schulz,Invité séminaire Firms and Markets 07/06/2023 - 12/06/2023,57607,E2024000539,,499.48,OK
+,Subvention d'État,SE,Fonctionnement,2024,Mission,Guillaume Hollard,Participation à ESA World Meeting à Lyon 25/06/2023 - 03/07/2023,58205,E2024000851,,618.3,OK
+,Subvention d'État,SE,Fonctionnement,2024,Mission,Jakub Steiner,Invité séminaire Microeconomics 04/10/2023,59405,,,585.18,OK
+,Subvention d'État,SE,Fonctionnement,2024,Commande,Econocom,Clavier,,E2024000872,,120.58,OK
+,Subvention d'État,SE,Fonctionnement,2024,Mission,Julien Combe,"Organisation et présentation de la conférence ""Des matchings aus marchés. au CIRM Marseille 10/12/2023 - 15/12/2023",60140,,,166.4,OK
+,Subvention d'État,SE,Fonctionnement,2024,Mission,Inès Picard,Visiting Rotterdam 01/09/2023 - 31/12/2023,58638,,,94.7,OK
+,Subvention d'État,SE,Fonctionnement,2024,Mission,Thomas Monnier,Visiting à University College London Billets 03/01/2024 - 31/03/2024,60091,,,199.4,OK
+,Subvention d'État,SE,Fonctionnement,2024,Mission,Tristan Duchenne,GT Communication GENES et visite CREST-ENSAI à Bruz,60910,,,334.06,OK
+,Subvention d'État,SE,Fonctionnement,2024,Commande,DELL,Braas pour double écran (Lyza),,E2024000755,,160.0,OK
+,Chaire Marjoulet,L029,Fonctionnement,2024,Commande,CASD,Projet EPOLOSO,,E2024001018,,5315,OK
+,Recrutement Sara Signorelli (reliquats 2023),R23E,Personnel,2022,Paie,Sara Signorelli,Enseignant (Quotité : 100%) Contrat : 01/06/2023 - 31/12/2024,,,,129140,OK
+,Programme PAUSE - Saeed Najafi Zanganeh,3491,Personnel,2023,Paie,Saeed Najafi,Doctorant (Quotité : 100%) Contrat : 01/10/2023 - 31/03/2024,,,,9079.39,OK
+,Programme PAUSE - Saeed Najafi Zanganeh,3491,Personnel,2023,Paie,Saeed Najafi,Aide à logement,,,,3000.0,OK
+,Programme PAUSE - Saeed Najafi Zanganeh,3491,Personnel,2023,Paie,Saeed Najafi,Aide au transport A/R,,,,800.0,OK
+,Convention de financement Léa Bou Sleiman,3325,Personnel,2022,Paie,Léa Bou Sleiman,Doctorant (Quotité : 100%) Contrat : 01/09/2022 - 31/08/2023,,,,35498.25,OK
+,Convention de financement Léa Bou Sleiman,3325,Fonctionnement,2022,EJ,Institut Europlace de Finance,Remboursement du trop perçu fin de contrat,,E2023018484,,1871.21,OK
+,Labex ECODEC 3048 RD 108,3048,Personnel,2021,Paie,Antoine Ferey,Doctorant (Quotité : 100%) Contrat : 01/10/2020 - 30/09/2021,,,L1,25240.86,OK
+,Labex ECODEC 3048 RD 108,3048,Personnel,2021,Paie,Claire Leroy,Doctorant (Quotité : 100%) Contrat : 01/09/2020 - 31/08/2023,,,L1,101251.32,OK
+,Labex ECODEC 3048 RD 108,3048,Personnel,2023,Paie,Yannick Obeloer,Assistant (Quotité : 100%) Contrat : 01/12/2021 - 31/07/2022,,,L1,35079.47,OK
+,Labex ECODEC 3048 RD 108,3048,Personnel,2022,Paie,Margarita Kirneva,Doctorant (Quotité : 100%) Contrat : 01/10/2022 - 30/09/2023,,,L1,33638.84,OK
+,Labex ECODEC RD 115 L1,3180,Personnel,2021,Paie,Pierre-Edouard Collignon,Doctorant (Quotité : 100%) Contrat : 01/09/2021 - 31/08/2022,,,L1,35520.56,OK
+,Labex ECODEC RD 115 L1,3180,Personnel,2021,Paie,Gwen-Jiro Clochard,Doctorant (Quotité : 100%) Contrat : 01/10/2021 - 30/09/2022,,,L1,35623.36,OK
+,Labex ECODEC RD 115 L1,3180,Personnel,2021,Paie,Louis Pape,Doctorant (Quotité : 100%) Contrat : 01/10/2021 - 10/04/2022,,,L1,19009.01,OK
+,Labex ECODEC RD 115 L1,3180,Personnel,2023,Paie,Myriam Kassoul,Doctorant (Quotité : 100%) Contrat : 01/11/2023 - 30/04/2024,,,L1,19010.0,En cours
+,Labex ECODEC ,3355 RD 122,Personnel,2023,Paie,Margarita Kirneva,Doctorant (Quotité : 100%) Contrat : 01/10/2023 - 30/06/2024,,,L1,28070,En cours
+,Labex ECODEC ,3355 RD 122,Personnel,2023,Paie,Claire Leroy,Doctorant (Quotité : 100%) Contrat : 01/09/2023 - 31/08/2024,,,L1,37420,En cours
+,Labex ECODEC ,3355 RD 122,Personnel,2023,Paie,Héloïse Clolery,Doctorant (Quotité : 100%) Contrat : 01/10/2023 - 31/12/2023,,,L1,9242.71,OK
+,Direction Générale de l'Armement,3378,Personnel,2022,Paie,Clément Montes,Doctorant (Quotité 100%) 01/10/2022 - 30/09/2025,,,,108000,En cours
+,IAESE+ E,L036,Personnel,2023,Paie,Santiago Alejandro Lopez-Cantor,Assistant (Quotité %) Contrat : 01/12/2023 - 31/07/2024,,,,13660,En cours
+,POLARIS,CIEDS 3479,Fonctionnement,2024,Mission,Clément Montes,Workshop et short visiting on economic sanctions à Philadelphie 06/02/2024 - 26/02/2024,60368,,,569.42,
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2024,Mission,Riho Marten Pallum,Visite de recherche sur le projet de la chaire BB2B 27/12/2023 - 08/01/2024,60463,,,,Non
+,Chaire Blockchain & B2B Platforms,BB2B,Personnel,2019,Paie,Sarah Bordage,Doctorant (Quotité : 100%) Contrat : 01/01/2019 - 30/06/2022,,,,102130.92,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Personnel,2019,Paie,Myriam Kassoul,Doctorant (Quotité : 100%) Contrat : 01/11/2019 - 31/10/2023,,,,124452.77,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Personnel,2019,Paie,Bernadette Charron-Bost,PCC Contrat : 01/09/2019 - 31/08/2023,,,,62310.56,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Personnel,2019,Paie,Daniel Augot,PCC Contrat : 01/09/2019 - 31/08/2023,,,,62248.97,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Personnel,2019,Paie,Julien Prat,Porteur de chaire  Contrat : 01/01/2019 - 31/12/2023,,,,81000.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Personnel,2021,Paie,Azam Soleimanian,Post-doctorant (Quotité : 100%) Contrat : 01/01/2021 - 15/02/2022,,,,57315.12,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Personnel,2021,Paie,Michele Fabi,Post-doctorant (Quotité : 100%) Contrat : 01/09/2021 - 31/08/2024,,,,134153.51,En cours
+,Chaire Blockchain & B2B Platforms,BB2B,Personnel,2021,Paie,Fatoumata Dione,Communication (Quotité : 100%) Contrat : 01/102/2021 - 28/11/2022,,,,59033.38,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Personnel,2022,Paie,Natkamon Tovanich,Post-doctorant (Quotité : 100%) Contrat : 01/03/2022 - 29/02/2024,,,,90616.02,En cours
+,Chaire Blockchain & B2B Platforms,BB2B,Personnel,2022,Paie,Louis Viallard,Assistant (Quotité : 100%) Contrat : 15/10/2022 - 14/10/2023,,,,7385.67,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Personnel,2023,Paie,Saadeh Angelo,Chercheur Contrat : 17/03/2023 - 16/05/2023,,,,6644.43,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Personnel,2019,Paie,Vacations,Vacations,,,,1522.73,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Daniel Augot,Séminaire ANR 08/01/2023 - 13/01/2023,56294,,,53.1,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Drissi Faycal,Invité séminaire chaire BB2B 24/01/2023 - 25/01/2023,56738,,,399.29,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Bernadette Charron-Bost,"Co-organisation des journées ""Revêtement de graphes et calcul distribué"" au CIRM 12/02/2023 - 16/02/2023",56888,,,363.88,"Erreur d'imputation pour 233,20€ pris sur 3286"
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Louis De Monterno,Marseille Covering Days 12/02/2023 - 15/02/2023,56890,,,476.5,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Martina Fraschini,Invitée séminaire chaire BB2B 14/02/2023 - 16/02/2023,57014,,,337.03,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Paolo Guasoni,Invité séminaire chaire BB2B 01/03/2023 - 02/03/2023,57046,,,0.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Nicola Borri,Invité séminaire chaire BB2B 15/03/2023 - 16/03/2023,57018,,,409.92,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Francesco Zola,Invité séminaire chaire BB2B 15/03/2023 - 16/03/2023,57019,,,254.68,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Xiaotong Sun,Invité séminaire chaire BB2B 16/05/2023 - 18/05/2023,57760,,,161.94,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Natkamon Tovanich,Summer school en Grèce 21/05/2023 - 30/05/2023,58022,,,439.96,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Myriam Kassoul,Summer school en Grèce 21/05/2023 - 28/05/2023,58023,,,668.13,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Julien Prat,Summer school en Grèce 21/05/2023 - 26/05/2023,58024,,,496.51,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Louis De Monterno,Marseille Covering Days 31/05/2023 - 03/06/2023,58413,,,0.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Julien Prat,Recent Advances on Quantitative Finance à Hong-Kong 10/08/2023 - 31/08/2023,57785,,,2101.99,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Michele Fabi,Conférence EEA - ESEM Barcelone 2023 27/08/2023 - 02/09/2023,58390,,,1576.5900000000001,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Natkamon Tovanich,Présentation à ECML PKDD 17/09/2023 - 20/09/2023,59132,,,943.93,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Liyi Zhou,Participation Blockchain@X-OMI Workshop 20/09/2023 - 23/09/2023,59136,,,193.53,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Léandro Sanchez Betancourt,Participation Blockchain@X-OMI Workshop 20/09/2023 - 23/09/2023,59138,,,193.53,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Kaihua Qui,Participation Blockchain@X-OMI Workshop 20/09/2023 - 23/09/2023,59139,,,193.53,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Marcello Monga,Participation Blockchain@X-OMI Workshop 20/09/2023 - 24/09/2023,59141,,,402.2,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Stefan Kitzler,Participation Blockchain@X-OMI Workshop 20/09/2023 - 23/09/2023,59144,,,417.53,Non
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Deborah Miori,Participation Blockchain@X-OMI Workshop 20/09/2023 - 24/09/2023,59145,,,388.9,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Louis De Monterno,DISC 2023 - 37th International Symposium on Distributed Computins 08/10/2023 - 13/10/2023,59532,,,407.39,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Bernadette Charron-Bost,DISC 2023 - 37th International Symposium on Distributed Computins 08/10/2023 - 13/10/2023,59531,,,407.39,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Arnaud Casteigts,Membre de jury de thèse Louis Pennet de Monterno 19/10/2023 - 20/10/2023,59748,,,411.98,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,George Giakkoupis,Membre de jury de thèse Louis Pennet de Monterno 19/10/2023 - 19/10/2023,59749,,,143.53,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Michele Fabi,Conférence à Londres 23/10/2023 - 29/10/2023,59853,,,1766.98,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Michele Fabi,Conférence à Naples 31/10/2023 - 07/11/2023,59851,,,721.02,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Michele Fabi,Conférence à Mannheim 18/12/2023 - 20/12/2023,59854,,,383.58,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Myriam Kassoul,Visiting USA 08/09/2022 - 09/01/2023,55344,,,8448.22,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Sarah Bordage,Séminaire scientifique projet BARRACUDA,52715,,,91.2,Non
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Daniel Augot,Séminaire scientifique projet BARRACUDA,52711,,,91.2,Non
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Fatoumata Dione,"Conférence à Paris ""Crypto""",53308,,,15.2,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Fatoumata Dione,Réunion de travail et conférence à Paris,53763,,,0.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Lyza Racon,Visite de salle et traiteur pour conférence du 16 et 17/06/2022,53764,,,0.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Maxime Romeas,Conférence à Hendaye,53884,,,0.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Youssef El Housni,Présentation à une conférence,53574,,,226.39,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Sarah Bordage,Conférence à Hendaye,53575,,,738.36,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Arash Aloosh,Visite de recherche avec collaborateur,53812,,,717.79,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,David Andolfatto,Workshop on the Future of Money,54255,,,1346.72,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Rodney John Garratt,Workshop on the Future of Money,53969,,,3044.54,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Hing Lun Chiu,Workshop on the Future of Money,53973,,,0.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Andreas Park,Workshop on the Future of Money,53940,,,735.79,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Maarten Roland Van Oordt,Workshop on the Future of Money,53934,,,101.39,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Martina Fraschini,Workshop on the Future of Money,53925,,,69.39,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Simon Mayer,Workshop on the Future of Money,53972,,,197.39,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Eleanora Guerrini,Membre du jury de thèse de Sarah Bordage,54712,,,114.7,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Gilles Zemor,Membre du jury de thèse de Sarah Bordage,54713,,,223.39,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Jack Fletcher,Workshop on the Future of Money,54339,,,211.39,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,David Tercero Lucas,Workshop on the Future of Money,53924,,,180.98000000000002,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Adeline Roux-Langlois,Membre du jury de thèse de Sarah Bordage,54792,,,316.64,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Pierrick Gaudry,Membre du jury de thèse de Sarah Bordage,54714,,,222.61,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Natkamon Tovanich,Conférence Université Claude Bernard Lyon 1,54431,,,94.39,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Daniel Augot,Travail de collaboration avec co-auteur,55598,,,211.69,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Natkamon Tovanich,Présentation Académie Work at Complex Networks 2022,55575,,,521.83,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Bernadette Charron-Bost,Journée du GDR Calculabilité,55849,,,16.39,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Simon Weidenholzer,Séminaire CREST,55774,,,251.39,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Laurent Imbert,Jury de soutenance de thèse Youssef El Housni,55929,,,337.56,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Sylvain Duquesne,Jury de soutenance de thèse Youssef El Housni,55927,,,190.04,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Louis De Monterno,Conférence OPODIS 2022,56348,,,686.04,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Bernadette Charron-Bost,Conférence OPODIS 2022,56374,,,562.0899999999999,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,EJ,Schloss Dagstuhl,Frais de publication Tokenomics 2022,,E2022010257,,780.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Paie,Grégoire Gaillard,Gratification de stage Mai 2022,,E2022016523,,54.6,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Paie,Grégoire Gaillard,Gratification de stage Juin 2022,,E2022016524,,573.3,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Paie,Grégoire Gaillard,Gratification de stage Juin 2022,,E2022016524,,34.46,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Paie,Grégoire Gaillard,Gratification de stage Juillet 2022,,E2022016525,,546.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Paie,Grégoire Gaillard,Gratification de stage Juillet 2022,,E2022016525,,34.46,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,EJ,Didier,Création de flyers pour Workshop du 16-17/06/2022,,E2022010528,,600.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,EJ,LBCMF SASU,Vacation de rédacteur en chef d'un document de vulgarisation sur la Decentralized Finance (DeFi),,21DG012217,,1250.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Paie,Grégoire Gaillard,Gratification de stage Aout 2022,,E2022017184,,136.5,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,EJ,CELYAN,Création et renouvellement des noms de domaine,,E2022010256,,169.55,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,EJ,CELYAN,Maintenance entre août et décembre 2022,,E2022014779,,375.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,EJ,CELYAN,Mise en conformité de la charte du site Wordpress Blockchain,,E2022019326,,450.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,EJ,CELYAN,Développement Wordpress,,E2022001509,,130.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,EJ,SARBACANE SOFTWARE,Offre essential (renouvellement),,E2022014831,,708.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,EJ,SARBACANE SOFTWARE,Mailing et publicité ,,E2023014683,,708.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Commande,Firmin Traiteur,Refacturation du 20/06/2022 à la suite d'un avoir,,E2022010859,,2415.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Commande,Firmin Traiteur,Refacturation du 20/06/2022 à la suite d'un avoir,,E2022010857,,3344.5,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Commande,Firmin Traiteur,Prestation du 22/09/2023,,E2023019081,,1001.9,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Commande,Firmin Traiteur,Pause café Firmin - Conférence du 21-22/09/2023,,E2023019081,,1020.5,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Investissement,2022,Commande,HP France,Serveur HPE ProLiant (Julien Prat),,E2022002812,,4341.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,EJ,S.E.CO SASU,Audit digital et site web,,E2022001481,,1800.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,Sébastian Krawczyk,Gratification de stage Juillet 2023,,E2023016530,,567.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,Zexuan Sun,Gratification de stage Juillet 2023,,E2023016547,,567.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,François Wissocq,Gratification de stage Juillet 2023,,E2023016548,,567.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,Zexuan Sun,Gratification de stage Juin 2023,,E2023016851,,623.7,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,Sébastian Krawczyk,Gratification de stage Août 2023,,E2023018216,,623.7,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,Zexuan Sun,Gratification de stage Août 2023,,E2023018220,,623.7,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,François Wissocq,Gratification de stage Août 2023,,E2023018228,,623.7,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,Rania Mani,Gratification de stage Juin 2023,,E2023018231,,623.7,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,Rania Mani,Gratification de stage Juillet 2023,,E2023018232,,567.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,Rania Mani,Gratification de stage Août 2023,,E2023018233,,255.15,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,Dima Daouk,Gratification de stage Janvier 2023,,E2023018450,,340.2,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,Dima Daouk,Gratification de stage Février 2023,,E2023018451,,567.0,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,Dima Daouk,Gratification de stage Mars 2023,,E2023018452,,368.55,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,François Wissocq,Gratification de stage Septembre 2023,,E2023019313,,595.35,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,François Wissocq,Remboursement transports juin-septembre 2023,,E2023020187,,145.8,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Commande,La Table de Cana,Réception du 22/09/2023,,E2023019343,,530.5,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Commande,La Table de Cana,Réception du 21/09/2023,,E2023019343,,530.5,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,Sébastian Krawczyk,Gratification de stage Mai 2023,,E2023013808,,538.65,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,Sébastian Krawczyk,Gratification de stage Juin 2023,,E2023013809,,623.7,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,Zexuan Sun,Gratification de stage  Septembre 2023,,E2023021960,,340.2,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,Zexuan Sun,Gratification de stage Avril 2023,,E2023009213,,255.15,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,Zexuan Sun,Gratification de stage Mai 2023,,E2023011490,,538.65,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,EJ,PLS Living Room,Diner du 22/09/2023,,E2023019082,,950.08,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,François Wissocq,Gratification de stage Avril 2023,,E2023009215,,255.15,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,François Wissocq,Gratification de stage Mai 2023,,E2023011491,,538.65,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Paie,François Wissocq,Gratification de stage Juin 2023,,E2023013820,,623.7,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Investissement,2023,Commande,Econocom,Macbook Pro 13 (Fatou),,E2023028987,,1716.17,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Investissement,2023,Commande,Econocom,Apple Adaptateur ,,E2023028987,,49.34,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Commande,UGAP,Fournitures administratives,,E2023029022,,307.6,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Commande,UGAP,Fournitures administratives,,E2023029022,,169.24,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Gwen-Jiro Clochard,"Participation à la Conférence ""Journée de Microéconomie Appliquée""",54125,,,402.34,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2021,Mission,Youssef El Housni,"Réunion de collaboration avec Aurore Guillevic (Inria Nancy), soutenance de thèse de Rémi Clarisse et séminaire C2",52607,,,290.12,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2021,Mission,Karine Brisset,Membre de jury de thèse au CREST,52821,,,178.5,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Yuanzhe Tang,Présentation conférence MUSEES à Lyon,53484,,,141.92,Erreur d'imputation (SE)
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Giuseppe Sorrenti,Séminaire CREST et visite de recherche avec Julien Combe,53930,,,148.47,Erreur d'imputation (SE)
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Rustamdjan Hakimov,Séminaire CREST et visite de recherche avec Julien Combe,54175,,,220.0,Erreur d'imputation (SE)
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Jacques Desrues,E4C - Colloque Pierre BREST,57844,,,428.18,Erreur d'imputation (E4C-LMD)
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,François Salanie,Conférence of Risk and Insurance in Honor of Pierre Picard,59056,,,261.53,Erreur d'imputation (3286)
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2023,Mission,Natkamon Tovanich,Présentation papier au Workshop ACM DeFi 2023,60142,,,578.5999999999999,OK
+,Chaire Blockchain & B2B Platforms,BB2B,Fonctionnement,2022,Mission,Randy Kotti,2022 APSA Annual Meeting & Exhibition à Montréal,55993,,,1192.75,Erreur d'imputation (3088)
+,EUR DATA EFM RD 6,3464,Fonctionnement,2024,Mission,Thomas Monnier,Visiting à University College London 02/01/2024 - 31/03/2024,60091,,,2813.94,OK
+,EUR DATA EFM RD 6,3464,Fonctionnement,2024,Mission,Clément Montes,Workshop + Short visiting on economic sanctions 06/02/2024 - 25/02/2024,60368,,,1136.06,OK
+,EUR DATA EFM RD 6,3464,Fonctionnement,2024,Mission,Maddalena Conte,Visiting à Berkeley 29/02/2024 - 01/06/2024,60818,,,4975.7,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2024,Commande,"Maison MM2, Bistrot Augustin",Diner séminaire workshop doctorants  Annule et remplace EJ 2024002543 12/01/2024,,E2024000754,,723.6,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2022,Commande,Firmin Traiteur,Pause gourmandise (Pierre Boyer) 24/03/2022,,E2022001424,L8,396.83,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2022,Commande,La Table de Cana,Déjeuner (Pierre Boyer) 24/03/2022,,E2022001464,L8,635.6,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2022,Commande,Firmin Traiteur,Pause-café (Pierre Boyer) 07/09/2022,,E2022016861,L8,448.4,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2022,Commande,Talking China Language Services,Traduction pour Pierre Picard,,E2022019600,L8,928.62,Non
+,Labex ECODEC RD 118,3287,Fonctionnement,2023,EJ,CASD,Renouvellement IMPOREV,,E2023001361,L5,4392.0,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2023,EJ,CASD,Abonnement INFOFIS pour Claire Leroy,,E2023002489,L8,1160.0,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2023,Commande,Eyrolles,Commande Livres pour Alessandro Riboni,,E2023009313,L8,201.07999999999998,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2023,Commande,Firmin Traiteur,Workshop on Political Economy 21/06/2023,,E2023009374,L8,358.8,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2023,Commande,Université ,Inscription summer school pour Clément Montes,,,L4,1200.0,?
+,Labex ECODEC RD 118,3287,Fonctionnement,2023,Mission,Vincent Verger,École d'été à Oxford 10/09/2023 - 17/09/2023,58387,,L4,1948.65,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2023,Commande,CASD,Renouvellement IMPOREV (Pierre Boyer),,E2023022513,L8,4392.0,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2023,Commande,CASD,Renouvellement INFOFIS (Pierre Boyer),,E2023022514,L8,8460.0,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2023,Commande,Eyrolles,Commande Livres pour Alessandro Riboni,,E2023021375,L8,194.77,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2023,Commande,Firmin Traiteur,Pause café workshop CREST doctorant 24/11/2023,,E2023022399,L8,502.5,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2023,Mission,Vincent Rollet,Invité workshop CREST 12/12/2023 - 13/01/2024,60139,,L8,858.72,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2023,Mission,Thibault Ingrand,"Invité séminaire ""Projet CPO"" 13/12/2023 - 13/01/2024",60231,,L8,1272.32,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2023,Commande,Chris-Bistrot Augustin,Restaurant Augustin du 24/11/23 Workshop Doctorants,,E2023024250,L8,723.6,Non
+,Labex ECODEC RD 118,3287,Fonctionnement,2023,Commande,L'Entrepot(es),Déjeuner jury de thèse Kotti 21/06,,E2023012206,L8,116.55,OK
+,Labex ECODEC RD 118,3287,Personnel,2023,Paie,Valentin Tordjman-Levasseur,Assistant (Quotité 10%) Contrat : 15/10/2023 - 30/04/2024,,,L10,2340.0,En cours
+,Labex ECODEC RD 118,3287,Personnel,2024,Paie,Lucas Degeorge,Assistant (Quotité 20%) Contrat : 01/01/2024 - 30/04/2024,,,L10,2880.0,En cours
+,Labex ECODEC RD 118,3287,Fonctionnement,2022,Commande,CASD,Abonnement INFOFIS,,,,3073.0,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2023,Mission,Pierre Boyer,Visite de recherche à Cologne 01/11/2022 - 03/11/2022,56014,,L8,732.8,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2022,Commande,La Table de Cana,Déjeuner (Pierre Boyer) 07/09/2022,,E2022016969,L8,1271.2,OK
+,Labex ECODEC RD 118,3287,Fonctionnement,2022,Commande,Firmin Traiteur,Pause après-midi 24/03/2022,,E2022001463,L8,402.0,OK
+,Labex ECODEC RD 115 L3 / L4,3182,Fonctionnement,2023,Mission,Maulik Fagnani,Invité séminaire CREST et collaboration avec Pauline Rossi 09/03/2023 - 23/03/2023,56842,,L3,3511.14,OK
+,Labex ECODEC RD 115 L3 / L4,3182,Fonctionnement,2023,Commande,La Table de Cana,Workshop CWEE 26/09/2023,,E2023019327,L4,424.4,OK
+,Labex ECODEC RD 115 L3 / L4,3182,Fonctionnement,2023,Commande,Firmin Traiteur,Pause café workshop CWEE 26/09/2023-27/09/2023,,E2023019328,L4,1611.47,OK
+,Labex ECODEC RD 115 L3 / L4,3182,Fonctionnement,2022,Commande,La Table de Cana,Plateaux repas pour workshop 16/06/2022,,E2022010583,L4,476.7,OK
+,Labex ECODEC RD 115 L3 / L4,3182,Fonctionnement,2022,Commande,La Table de Cana,Workshop CWEE 27/09/2023,,E2023019327,L4,654.8,OK
+,Labex ECODEC RD 115 L3 / L4,3182,Fonctionnement,2023,Mission,Geoffrey Barrows,Participation à une conférence à Larnaca 27/06/2023 - 30/06/2023,58066,,L3,793.81,OK
+,Labex ECODEC RD 115 L2,3181,Fonctionnement,2023,Mission,Allan Drazen,Cours et séminaire CREST,56844,,L2,1711.03,En cours
+,Labex ECODEC RD 115 L2,3181,Personnel,2022,Paie,Paul-Emmanuel Chouc,Assistant (Quotité 100%) Contrat : 01/09/2022 - 31/08/2023,,,L2,37747.66,OK
+,Labex ECODEC RD 115 L2,3181,Personnel,2023,Paie,Camille Ciriez,Assistant (Quotité 100%) Contrat : 01/09/2023 - 30/09/2023,,,L2,30165.66,OK
+,Labex ECODEC RD 115 L2,3181,Personnel,2018,Paie,Germain Gauthier,Doctorant (Quotité 100%) Contrat : 01/09/2018 - 31/03/2023,,,L2,24346.17,OK
+,Labex ECODEC RD 115 L2,3181,Personnel,2022,Paie,Aurel Melard,Assistant (Quotité 100%) Contrat : 01/09/2022 - 31/08/2023,,,L2,44316.18,OK
+,Labex ECODEC RD 115 L2,3181,Personnel,2021,Paie,Thomas Monnier,Doctorant (Quotité 100%) Contrat : 01/09/2021 - 31/08/2024,,,L2,115490.0,En cours
+,Labex ECODEC RD 115 L2,3181,Personnel,2023,Paie,Agathe Noyer,Assistant (Quotité 100%) Contrat : 01/09/2023 - 31/03/2024,,,L2,22490.0,En cours
+,Labex ECODEC RD 115 L2,3181,Personnel,2019,Paie,Yuanzhe Tang,Doctorant (Quotité 100%) Contrat : 01/10/2019 - 31/08/2023,,,L2,33229.31,OK
+,Labex ECODEC RD 115 L2,3181,Personnel,2023,Paie,Mathilde Zobouyan,Assistant (Quotité 100%) Contrat : 10/09/2023 - 30/10/2023,,,L2,5968.59,OK
+,Labex ECODEC RD 115 L2,3181,Personnel,2021,Paie,Giulia Vattuone,Doctorant (Quotité 100%) Contrat : 01/09/2021 - 31/08/2022,,,L2,41029.83,OK
+,Labex ECODEC RD 115 L2,3181,Personnel,2022,Paie,Thomas Van Casteren,Assistant (Quotité 100%) Contrat : 01/03/2022 - 31/05/2022),,,L2,8670.21,OK
+,Labex ECODEC RD 115 L2,3181,Personnel,2022,Paie,Claire He,Assistant (Quotité 100%) Contrat : 01/08/2022 - 21/08/2022,,,L2,1796.33,OK
+,Labex ECODEC RD 115 L2,3181,Personnel,2023,Paie,Héloïse Clolery,Doctorant (Quotité 100%) Contrat : 01/01/2024 - 30/09/2024,,,L2,27950.0,En cours
+,Labex ECODEC RD 115 L2,3181,Personnel,2022,Paie,Oliver Vanden Eynde,Chargé de recherche (Quotité 20%) Contrat : 01/0/2022 - 30/04/2022,,,L2,1004.0,OK
+,Labex ECODEC RD 115 L2,3181,Fonctionnement,2023,Paie,Sofo Kiknadze,Stage Convention : 06/2023 - 08/2023,,,L2,1219.05,OK
+,Labex ECODEC RD 115 L2,3181,Fonctionnement,2023,Paie,Elise Playe,Stage Convention : 06/2023 - 08/2023,,,L2,822.15,OK
+,TOTAL,3177,Fonctionnement,2022,Paie,Johanne Trotin,Gratification de stage Mai - Juin 2022,,E2022012911,,873.6,OK
+,TOTAL,3177,Fonctionnement,2022,Paie,Johanne Trotin,Gratification de stage Juillet 2022,,E2022014520,,409.5,OK
+,TOTAL,3177,Fonctionnement,2022,Paie,Johanne Trotin,Gratification de stage Août 2022,,E2022016664,,600.6,OK
+,TOTAL,3177,Personnel,2022,Paie,Johanne Trotin,Assistant (Quotité 100%) 02/09/2022 - 01/09/2023,,,,35094.84,OK
+,TOTAL,3177,Personnel,2023,Paie,Johanne Trotin,Doctorant (Quotité 100%) 02/09/2023 - 31/08/2026,,,,112470.0,En cours
+,TOTAL,3177,Fonctionnement,2023,Mission,Johanne Trotin,Conférence ESA 25/06/2023 - 29/06/2023,57668,,,1246.33,OK
+,TOTAL,3177,Fonctionnement,2022,Mission,Wael Bousselmi,Conférence GRASFI AGM 04/09/2022 - 08/09/2022,55463,,,915.86,OK
+,TOTAL,3177,Fonctionnement,2022,Mission,Johanne Trotin,Conférence GRASFI AGM 06/09/2022 - 08/09/2022,55456,,,296.32,OK
+,TOTAL,3177,Fonctionnement,2022,EJ,Régie,Régie expérimentation d'économétrie,,E2022025914,,586.5,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Commande,Grammarly,Abonnement Alessandro Riboni,,E2023013979,L3,144,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,EJ,CASD,Abonnement Julien Combe,,E2023009043,L3,444,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Commande,Andrew Clark,Relecture traduction,,E2022001175,L4,480,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,EJ,CASD,Renouvellement Churning in Cities - 15581,,E2023001158,L1,629,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,EJ,CASD,Renouvellement Churning in Cities - 15605,,E2023001159,L1,555,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,EJ,CASD,Projet VOLEMLI,,E2023001160,L1,17565,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Commande,Eyrolles,Livres pour Jean-Baptiste Michau,,E2023001728,L4,78.63,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Commande,,Frais de publications Yukio Koriyama,,,L4,375.76,
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Paie,Lilly Fischer,Gratification de stage Décembre 2022,,E2023001606,L4,464.1,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Paie,Lilly Fischer,Gratification de stage Novembre 2022,,E2022023919,L4,546,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Paie,Lilly Fischer,Gratification de stage Janvier 2023,,E2023001371,L4,623.7,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Paie,Cyrus Pellet,Gratification de stage Janvier 2023,,E2023001373,L4,481.95,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Paie,Cyrus Pellet,Gratification de stage Février 2023,,E2023001994,L4,567,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Paie,Lucia Carai,Gratification de stage Janvier 2023,,E2023002683,L4,226.8,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Paie,Alejandro Christlieb Picazo,Gratification de stage Janvier 2023,,E2023002688,L4,198.45,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Paie,Lucia Carai,Gratification de stage Février 2023,,E2023002685,L4,567,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Paie,Alejandro Christlieb Picazo,Gratification de stage Février 2023,,E2023002689,L4,567,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Paie,Lucia Carai,Gratification de stage Mars 2023,,E2023005661,L4,396.9,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Paie,Cyrus Pellet,Gratification de stage Mars 2023,,E2023005668,L4,368.55,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Paie,Alejandro Christlieb Picazo,Gratification de stage Mars 2023,,E2023005813,L4,368.55,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Paie,Mathieu Fantino,Gratification de stage Juin 2023,,E2023013812,L4,623.7,OK
+,Labex ECODEC RD 111,3141,Investissement,2024,Commande,HP France,Tablette Yukio Koriyama,,E2023007186,L4,805.3,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Paie,Mathieu Fantino,Gratification de stage Juillet 2023,,E2023016498,L4,538.65,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Commande,Eyrolles,Livres pour Jean-Baptiste Michau,,E2023021374,L4,278.93,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2024,Mission,Olivier Gossner,Visite de travail avec Galit Ashkenazi 18/01/2024 - 19/01/2024,60591,,L2,149.68,En cours
+,Labex ECODEC RD 111,3141,Fonctionnement,2024,Mission,Olivier Gossner,Visite de travail avec Galit Ashkenazi 25/01/2024 - 26/01/2024,60592,,L2,209.68,En cours
+,Labex ECODEC RD 111,3141,Fonctionnement,2024,Mission,Olivier Gossner,Visite de travail avec Galit Ashkenazi 01/02/2024 - 02/02/2024,60593,,L2,209.68,En cours
+,Labex ECODEC RD 111,3141,Fonctionnement,2024,Mission,Olivier Gossner,Visite de travail avec Galit Ashkenazi 08/02/2024 - 09/02/2024,60594,,L2,129.68,En cours
+,Labex ECODEC RD 111,3141,Fonctionnement,2024,Mission,Olivier Gossner,Visite de travail avec Galit Ashkenazi 15/02/2024 - 16/02/2024,60595,,L2,199.68,En cours
+,Labex ECODEC RD 111,3141,Personnel,2021,Paie,Maxime Liegey,Assistant (Quotité : 100%) 15/05/2021 - 31/08/2021,,,,10343.21,OK
+,Labex ECODEC RD 111,3141,Personnel,2021,Paie,Vincent Verger,Assistant (Quotité : 100%) 01/09/2021 - 31/08/2021,,,,47669.35,OK
+,Labex ECODEC RD 111,3141,Personnel,2021,Paie,Thibault Ingrand,Assistant (Quotité : 40%) 11/10/2021 - 31/05/2022,,,,7452.17,OK
+,Labex ECODEC RD 111,3141,Personnel,2022,Paie,Giacomp Rostagno,Assistant (Quotité : 40%) 01/09/2022 - 31/12/2022,,,,5211.88,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Olivier Gossner,Visite de recherche avec co-auteur 19/01/2023 - 20/01/2023,56340,,L2,410.85,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Olivier Gossner,Visite de recherche avec co-auteur 26/01/2023 - 27/01/2023,56342,,L2,395.85,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Yukio Koriyama,Conférence CEFM et visite à Waseda University 31/01/2023 - 11/02/2023,56766,,L2,1143.31,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Olivier Gossner,Visite de recherche avec co-auteur 02/02/2023 - 03/02/2023,56343,,L2,104.8,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Olivier Gossner,Visite de recherche avec co-auteur 09/02/2023 - 10/02/2023,56344,,L2,380.35,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Olivier Gossner,Visite de recherche avec co-auteur 16/02/2023 - 17/02/2023,56345,,L2,365.35,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Olivier Gossner,Visite de recherche avec co-auteur 02/03/2023 - 03/03/2023,57204,,L2,710.36,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Olivier Gossner,Visite de recherche avec co-auteur 09/03/2023 - 10/03/2023,57159,,L2,489.07,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Léa Bou Sleiman,Conférence RIEF 15/03/2023 - 19/03/2023,57388,,L4,205.4,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Olivier Gossner,Visite de recherche avec co-auteur 16/03/2023 - 17/03/2023,57163,,L2,474.95,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Benoît Schmutz,Conférence RIEF 16/03/2023 - 17/03/2023,57390,,L4,204,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Olivier Gossner,Visite de recherche avec co-auteur 23/03/2023 - 24/03/2023,57165,,L2,479.87,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Olivier Gossner,Visite de recherche avec co-auteur 30/03/2023 - 31/03/2023,57166,,L2,494.05,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Yukio Koriyama,Participation à une cérémonie de remise de prix et workshop 02/04/2023 - 05/04/2023,57407,,L2,648.4,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Olivier Gossner,Visite de recherche avec co-auteur 06/04/2023 - 07/04/2023,57179,,L2,324.4,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Christian Belzil,Conférence en mémoire de Claude Monmarquette et travaux avec co-auteurs sur différents projets 18/04/2023 - 03/05/2023,57394,,L2,1509.92,En cours
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Maddalena Conte,Urban Economics Conference 27/04/2023 - 07/05/2023,57590,,L4,329.87,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Olivier Gossner,Visite de recherche avec co-auteur 04/05/2023 - 05/05/2023,57180,,L2,199.4,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Matias Nunez,Research stat seminar at Barcelone 27/05/2023 - 01/06/2023,57910,,L2,609.6,En cours
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Matias Nunez,Inaugural Benelux PECO Conference 14/06/2023 - 16/06/2023,57709,,L2,481.4,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Yukio Koriyama,Visiting Waseda University 20/06/2023 - 27/08/2023,58742,,L2,4702.03,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Olivier Gossner,Conférence COMSOC 2023 29/06/2023 - 30/06/2023,58542,,L2,189.4,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Margarita Kirneva,Conférence COMSOC 2023 02/07/2023 - 07/07/2023,58528,,L2,944.67,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Pierre Boyer,Les rencontres scientifiques d'Aix en Provence 2023 08/07/2023 - 09/07/2023,58388,,L2,159.7,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Matias Nunez,Conférence SAET 17/07/2023 - 21/07/2023,57444,,L2,370.6,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Christian Belzil,Recherche sur données au CIRANO et Ministère des Finances du Québec 20/08/2023 - 17/12/2023,58729,,L2,2425.44,En cours
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Matias Nunez,Présentation à la Econometric Society 30/08/2023 - 30/08/2023,58901,,L2,496.69,En cours
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Matias Nunez,Colloque Transatlantic Theory Workshop à Oxford 05/09/2023 - 08/09/2023,58723,,L2,392.14,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Yukio Koriyama,Participation à un symposium et travail avec coauteurs à Tokyo 20/11/2023 - 27/11/2023,60261,,L2,,En cours
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Allan Drazen,Invité CREST pour recherche avec Alessandro Riboni 18/01/2022 - 18/05/2022,56633,,L2,0,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Alessandro Riboni,Visite à Einaudi Institute of Finance et Luiss University (travail avec Facundo Piguillem) 19/02/2022 - 16/03/2022,53236,,L2,3650.3,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Olivier Gossner,Visite de recherche avec collaborateur 11/03/2022 - 11/03/2022,53472,,L2,195.3,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Hugo Subtil,Visite de recherche et séminaire au CREST 31/03/2022 - 07/04/2022,53697,,L2,245.08,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Matias Nunez,Séjour de recherche à California Institute of Technology 02/04/2022 - 08/05/2022,53477,,L2,1842.87,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Olivier Gossner,"Visite de recherche avec collaborateur Bernhard Von Stengel et participation au workshop ""What is the Game? A Workshop on Game Theory"" 05/04/2022 - 07/04/2022",53638,,L2,476.57,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Christian Belzil,Collaboration scientifique avec Hansen (Concordia) et CIRANO (projet aide financière) et présentation à la congérence Montréal Economics  26/04/2022 - 09/05/2022,53303,,L2,1681.92,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Yukio Koriyama,Visiting Waseda University and research and teaching with coauthors 24/05/2022 - 28/08/2022,54263,,L2,3863.81,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Marion Brouard,Conférence Journées de Microéconomie Appliquée 01/06/2022 - 03/06/2022,54217,,L2,123.3,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Marie-Laure Allain,Présentation conférence BECCLE 01/06/2022 - 03/06/2022,54410,,L2,1373.42,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Guillaume Hollard,Conférence Journées de Microéconomie Appliquée 02/06/2022 - 03/06/2022,54194,,L2,101.3,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Julien Combe,Conference on Economic Design at University of Padova 08/06/2022 - 12/06/2022,54136,,L2,1368.39,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Jean-Baptiste Michau,Conference Society for Economic Dynamics 24/06/2022 - 02/07/2022,53933,,L2,2594.96,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Matias Nunez,Séjour de recherche 02/07/2022 - 13/04/2022,54949,,L2,644.78,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Jean-Baptiste Michau,Conférence Salento Macro Meetings 2022 24/07/2022 - 27/07/2022,54930,,L2,447.73,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Christian Belzil,Visite de recherche 25/08/2022 - 16/12/2022,55016,,L2,5757.51,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Julien Combe,Présentation Transatlantic Theory Workshop 30/08/2022 - 03/09/2022,55174,,L2,1616.44,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Olivier Gossner,Visite de recherche 22/09/2022 - 22/09/2022,55505,,L2,220.77,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Andrea Weber,Séminaire CREST 09/10/2022 - 22/10/2022,55815,,L2,936.16,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Olivier Gossner,Visite de recherche avec co-auteur 13/10/2022 - 13/10/2022,55675,,L2,195.3,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Olivier Gossner,Visite de recherche avec co-auteur 25/10/2022 - 25/10/2022,55807,,L2,315.3,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Olivier Gossner,Visite de recherche avec co-auteur 01/11/2022 - 01/11/2022,55812,,L2,290.3,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Emmanuelle Auriol,Séminaire CREST 09/11/2022 - 10/11/2022,56129,,L2,819.84,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Alessandro Riboni,CEPR Conference Series on the Political Economy of Finance 11/11/2022 - 13/11/2022,56054,,L2,623.29,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Olivier Gossner,Visite de recherche avec co-auteur 17/11/2022 - 17/11/2022,55813,,L2,135.3,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Guillaume Hollard,Partenariat de recherche avec ANSD et SONATEL 20/11/2022 - 24/11/2022,56050,,L2,2496.33,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Olivier Gossner,Visite de recherche avec co-auteur 24/11/2022 - 24/11/2022,55814,,L2,135.3,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Mission,Julien Combe,Visite Universié de Stanford pour séminaire 29/11/2022 - 17/12/2022,56321,,L4,2043.77,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Paie,Manuel Pannier,Gratification de stage Janvier 2022,,"E2022000693
+E2022000627",L1,1146.6,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Paie,Raja Taleb Ahmed,Gratification de stage Mai à août 2022,,"E2022013026
+E2022016471
+E2022016675",L1,1992.9,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Paie,Thibaud Cazanave,Gratification de stage Mai à juillet 2022,,E2022016526,L1,1173.9,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Commande,Eyrolles,Livres pour Jean-Baptiste Michau,,E2022012126,L4,246.4,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,Commande,Andrew Clark,Traduction pour Guillaume Hollard,,E2022001990,L4,360,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2022,EJ,CASD,Renouvellement Julien Combe,,E2022003076,L4,420,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Commande,CITI Program,nan,,E2023022103,,120.55,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Commande,Grammarly,Location licence,,E2022023778,,146.88,OK
+,Labex ECODEC RD 111,3141,Investissement,2023,Commande,HP France,Tablette,,E2023021981,,967.31,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2021,EJ,Multi,Total dépenses SIREPA,,,,15976.92,OK
+,Labex ECODEC RD 111,3141,Fonctionnement,2023,Mission,Olivier Gossner,Visite de Recherche avec co-auteur Prof. Bernhard von Stengel 28/09/2023 - 04/12/2023,60828,,L2,966.4,OK
+,Labex ECODEC RD 122,3356 RD 122,Fonctionnement,2023,Mission,Giovanni Ricco,Participation à l'Annual Conference of the Banco Central do Brasil et travail avec coauteurs 12/05/2023 - 23/05/2023,57933,,L2,2575.4,OK
+,Labex ECODEC RD 122,3356 RD 122,Fonctionnement,2023,Mission,Giovanni Ricco,Participation à African Econometric Society Conference et travail avec coauteurs 31/05/2023 - 06/06/2023,57934,,L2,1878.79,OK
+,Labex ECODEC RD 122,3356 RD 122,Fonctionnement,2023,Mission,Giovanni Ricco,BSE Summer Forum Workshop on Advances in Structural Shocks Identification 07/06/2023 - 09/06/2023,57997,,L2,444.91,OK
+,ANR TAXREV,3088,Personnel,2022,Paie,Camille Ciriez,Assistant (Quotité : 100%) 01/10/2022 - 31/12/2022,,,,8206.8,OK
+,ANR TAXREV,3088,Personnel,2021,Paie,Nolwenn Loisel,Assistant (Quotité : 100%) 01/09/2021 - 31/08/2022,,,,34110.28,OK
+,ANR TAXREV,3088,Personnel,2021,Paie,Jérôme Poulain,Assistant (Quotité : 100%) 06/12/2021 - 05/12/2022,,,,26957.55,OK
+,ANR TAXREV,3088,Personnel,2022,Paie,Adrien Vallette,Assistant (Quotité : 100%) 01/01/2022 - 28/08/2022,,,,5798.65,OK
+,ANR TAXREV,3088,Personnel,2022,Paie,Vincent Verger,Doctorant (Quotité : 100%) 01/09/2022 - 31/08/2025,,,,113000.0,OK
+,ANR TAXREV,3088,Fonctionnement,2021,Paie,Bilal Choho,Gratification de stage  Mai à août 2021,,,,1965.6,OK
+,ANR TAXREV,3088,Fonctionnement,2021,Paie,Pablo Rodriguez,Gratification de stage  Mai à août 2021,,,,1747.2,OK
+,ANR TAXREV,3088,Fonctionnement,2022,Paie,Agathe Noyer,Gratification de stage Mai à juillet 2022,,,,1801.8,OK
+,ANR TAXREV,3088,Fonctionnement,2022,EJ,CASD,Renouvellement INFOFIS,,,,8412.0,OK
+,ANR TAXREV,3088,Fonctionnement,2022,Mission,Claire Leroy,Visiting de recherche à l'Université de San Francisco 03/01/2022 - 15/06/2022,52386.0,,,496.1,OK
+,ANR TAXREV,3088,Fonctionnement,2022,Mission,Pierre Boyer,Visite de recherche à Amsterdam 01/03/2022 - 04/03/2022,53390.0,,,687.4,OK
+,ANR TAXREV,3088,Fonctionnement,2022,Mission,Thibault Ingrand,Projet de recherche avec l'Université de San Francisco 28/03/2022 - 02/04/2022,53640.0,,,2572.49,OK
+,ANR TAXREV,3088,Fonctionnement,2022,Mission,Pierre Boyer,Visite de recherche à Bruxelles 22/04/2022 - 23/04/2022,53928.0,,,0.0,OK
+,ANR TAXREV,3088,Fonctionnement,2022,Mission,Pierre Boyer,Visite de recherche à Toulouse 05/05/2022 - 11/05/2022,53929.0,,,223.15,
+,ANR TAXREV,3088,Fonctionnement,2022,Mission,Pierre Boyer,Visite de recherche à Toulouse 05/05/2022 - 11/05/2022,56170.0,,,0.0,OK
+,ANR TAXREV,3088,Fonctionnement,2022,Mission,Pierre Boyer,Visite de recherche à Munich 30/05/2022 - 01/06/2022,53931.0,,,0.0,OK
+,ANR TAXREV,3088,Fonctionnement,2022,Mission,Pierre Boyer,Visite de recherche à Munich 30/05/2022 - 01/06/2022,56172.0,,,0.0,OK
+,ANR TAXREV,3088,Fonctionnement,2022,Mission,Adrianus Gerritsen,Invité séminaire CREST 10/06/2022 - 11/06/2022,54711.0,,,0.0,OK
+,ANR TAXREV,3088,Fonctionnement,2022,Mission,Pierre Boyer,Conférence IIPF 2022 à Linz et Conférence EEA-ESEM à Milan 01/08/2022 - 27/08/2022,54716.0,,,2496.62,OK
+,ANR TAXREV,3088,Fonctionnement,2022,Mission,Marion Brouard,Conférence IIPF 2022 09/08/2022 - 13/08/2022,55231.0,,,189.3,OK
+,ANR TAXREV,3088,Fonctionnement,2022,Mission,Claire Leroy,Conférence IIPF 2022 09/08/2022 - 13/08/2022,55351.0,,,472.19,OK
+,ANR TAXREV,3088,Fonctionnement,2022,Mission,Randy Kotti,2022 APSA Annual Meeting and Exhibition 15/09/2022 - 18/09/2022,55993.0,,,1192.75,
+,ANR TAXREV,3088,Fonctionnement,2022,Mission,Pierre Boyer,Visite de recherche à Cologne 01/11/2022 - 03/11/2022,56014.0,,,733.0799999999999,OK
+,ANR TAXREV,3088,Fonctionnement,2022,Mission,Arnaud Pandevant,Journées de l'Économie à Lyon 15/11/2022 - 17/11/2022,56152.0,,,53.3,OK
+,ANR TAXREV,3088,Fonctionnement,2022,Mission,Geoffroy Dupont De Dinechin,Journées de l'Économie à Lyon 15/11/2022 - 17/11/2022,56158.0,,,50.34,
+,ANR TAXREV,3088,Fonctionnement,2022,Mission,Jean-Galaad Barriere,Journées de l'Économie à Lyon 15/11/2022 - 17/11/2022,56153.0,,,127.95,OK
+,ANR TAXREV,3088,Fonctionnement,2023,Mission,Pierre Boyer,Visite de recherche à Munich 31/01/2023 - 02/02/2023,56967.0,,,234.65,OK
+,ANR TAXREV,3088,Fonctionnement,2023,Mission,Claire Leroy,Visite du département de recherche d'Harvard University et collaboration avec chercheur à San Francisco 24/02/2023 - 11/05/2023,56634.0,,,2253.84,OK
+,ANR TAXREV,3088,Fonctionnement,2023,Mission,Paul-Emmanuel Chouc,Visite au MIT et Princeton University 18/03/2023 - 23/03/2023,57574.0,,,222.56,OK
+,ANR TAXREV,3088,Fonctionnement,2023,Mission,Pierre Boyer,Visite à Toulouse School of Economics 15/05/2023 - 18/05/2023,58182.0,,,909.86,
+,ANR TAXREV,3088,Fonctionnement,2023,Mission,Albert Jan Hummel,Workshop on Taxation Economics au CREST 02/06/2023 - 07/06/2023,58119.0,,,438.66,OK
+,ANR TAXREV,3088,Fonctionnement,2023,Mission,Karl Schulz,Invité séminaire Firms and Markets 07/06/2023 - 12/06/2023,57607.0,,,499.48,
+,ANR TAXREV,3088,Fonctionnement,2023,Mission,Pierre Boyer,"Conférence SAET ""Société pour l'Avancement de la Théorie Économique"" 17/07/2023 - 21/07/2023",57443.0,,,472.51,OK
+,ANR TAXREV,3088,Fonctionnement,2023,Mission,Pierre Boyer,Conférence NBER Public Economics 18/10/2023 - 22/10/2023,59597.0,,,3517.01,
+,ANR TAXREV,3088,Fonctionnement,2023,Mission,Paul Vanborre--Jamin,Journée de l'Économie 2023 14/11/2023 - 16/11/2023,59761.0,,,113.4,OK
+,ANR TAXREV,3088,Fonctionnement,2023,Mission,Amine Fahli Mohamed,Journée de l'Économie 2023 14/11/2023 - 16/11/2023,59760.0,,,113.4,OK
+,ANR TAXREV,3088,Fonctionnement,2022,Mission,Pauline Carry,Visite de recherche à l'Université de San Francisco 13/01/2022 - 03/06/2022,52365.0,,,1496.66,OK
+,ANR TAXREV,3088,Fonctionnement,2024,Mission,Marion Brouard,Visiting à l'Université de Berkeley 02/03/2024 - 31/05/2024,60521.0,,,,
+,ANR TAXREV,3088,Fonctionnement,2023,Mission,Pierre Boyer,Visite à Toulouse School of Economics 04/06/2023 - 07/06/2023,57591.0,,,583.81,OK
+,ANR TAXREV,3088,Fonctionnement,2023,Mission,Thibault Ingrand,Projet de recherche avec l'Université 16/12/2022 - 07/01/2023,56108.0,,,2486.97,OK
+,ANR TAXREV,3088,Fonctionnement,2023,EJ,Régie d'avance,Frais d'inscription,,E2023018920,,479.1,OK
+,ANR TAXREV,3088,Fonctionnement,2023,Mission,Xiaotong Sun,Invité séminaire Chaire BB2B,57760.0,,,229.53,Erreur d'imputation (BB2B)
+,EUR DATA EFM,3357,Fonctionnement,2023,Commande,La Table de Cana,Évènement doctorants du 16/06/2023,,E2023011733,L2,654.8,OK
+,EUR DATA EFM,3357,Fonctionnement,2023,EJ,CASD,Abonnement CASD MANQDIV pour Marion Brouard et Léa Dubreuil,,E2023011473,L2,2555.0,OK
+,EUR DATA EFM,3357,Fonctionnement,2023,Mission,Claire Leroy,Visite du département de recherche d'Harvard University et collaboration avec chercheur à San Francisco 24/02/2023 - 11/05/2023,56634,,L1,3973.2,OK
+,EUR DATA EFM,3357,Fonctionnement,2023,Mission,Héloïse Clolery,Young Economist's Meeting 2023 23/05/2023 - 29/05/2023,58116,,L2,655.64,OK
+,EUR DATA EFM,3357,Fonctionnement,2023,Mission,Margarita Kirneva,Conférence scientifique 25/06/2023 - 30/06/2023,58531,,L2,709.75,OK
+,EUR DATA EFM,3357,Fonctionnement,2023,Mission,Margarita Kirneva,Conférence scientifique 22/07/2023 - 31/07/2023,58389,,L1,1793.86,OK
+,EUR DATA EFM,3357,Fonctionnement,2023,Mission,Riccardo Norbiato,Visiting à San Francisco 05/08/2023 - 20/12/2023,58137,,L2,1554.32,Non
+,EUR DATA EFM,3357,Fonctionnement,2023,Mission,Margarita Kirneva,Transatlantic Theory Workshop 06/09/2023 - 10/09/2023,59028,,L2,197.1,OK
+,EUR DATA EFM,3357,Fonctionnement,2023,Mission,Héloïse Clolery,Visiting Harvard Business School 30/06/2022 - 31/05/2023 (convenance personnelle jusqu'au 30/06/2023),55205,,L1,15257.89,OK
+,EUR DATA EFM,3357,Fonctionnement,2023,Mission,Myriam Kassoul,Visiting USA 08/09/2022 - 09/01/2023,55344,,L1,8148.44,OK
+,EUR DATA EFM,3357,Fonctionnement,2024,EJ,CASD,Abonnement TARECOM pour Théo Roudil,,E2024000417,L2,1260.0,OK
+,EUR DATA EFM,3357,Fonctionnement,2023,Mission,Inès Picard,Visiting à Rotterdam 01/09/2023 - 31/12/2023,58638,,L2,3059.3599999999997,OK
+,Labex Ecodec,3286,Fonctionnement,2022,Mission,Yves Le Yaouanq,Visite de recherche avec coauteurs à l'Université d'Amsterdam 28/02/2022 - 03/03/2022,53332,,L3,542.63,OK
+,Labex Ecodec,3286,Fonctionnement,2022,Mission,Pierre Picard,Conférence EGRIE 2022 à Vienne 16/09/2022 - 25/09/2022,55602,,L2,1394.7,OK
+,Labex Ecodec,3286,Fonctionnement,2022,Mission,Alexis Louaas,Conférence EGRIE 2022 à Vienne 18/09/2022 - 21/09/2022,55513,,L2,966.91,OK
+,Labex Ecodec,3286,Fonctionnement,2022,Mission,Yves Le Yaouanq,Travail de collaboration avec coauteur 06/11/2022 - 08/11/2022,55926,,L3,639.65,OK
+,Labex Ecodec,3286,Fonctionnement,2022,Mission,Christine Valente,Séminaire CREST et travaux de recherche avec Pauline Rossi 11/12/2022 - 16/12/2022,56156,,L2,416.62,OK
+,Labex Ecodec,3286,Fonctionnement,2023,Mission,Felix Montag,Séminaire CREST 12/12/2022 - 08/01/2023,56371,,L2,2535.48,OK
+,Labex Ecodec,3286,Fonctionnement,2022,Mission,Tommaso Bondi,Séminaire CREST 13/12/2022 - 15/12/2022,56293,,L2,345.29999999999995,OK
+,Labex Ecodec,3286,Fonctionnement,2023,Paie,Vinaya Seshan,Gratification de stage Janvier 2023,,E2023001383,L1,340.2,OK
+,Labex Ecodec,3286,Fonctionnement,2023,Paie,Carolina Steensma,Gratification de stage Janvier 2023,,E2023001602,L1,340.2,OK
+,Labex Ecodec,3286,Fonctionnement,2023,Paie,Vinaya Seshan,Gratification de stage Février 2023,,E2023001991,L1,567.0,OK
+,Labex Ecodec,3286,Fonctionnement,2023,Paie,Carolina Steensma,Gratification de stage Février 2023,,E2023001993,L1,567.0,OK
+,Labex Ecodec,3286,Fonctionnement,2023,Paie,Vinaya Seshan,Gratification de stage Mars 2023,,E2023005669,L1,368.55,OK
+,Labex Ecodec,3286,Fonctionnement,2023,Paie,Carolina Steensma,Gratification de stage Mars 2023,,E2023005670,L1,368.55,OK
+,Labex Ecodec,3286,Fonctionnement,2023,Mission,Rachel Huang,Participation à la conférence Risk and Insurance 12/09/2023 - 16/09/2023,58895,,L2,0.0,OK
+,Labex Ecodec,3286,Fonctionnement,2023,Mission,François Salanie,Participation à la conférence Risk and Insurance 13/09/2023 - 16/09/2023,59056,,L2,261.68,Erreur d'imputation BB2B
+,Labex Ecodec,3286,Fonctionnement,2023,Mission,Pierre Picard,Conférence EGRIE 2023 à Malaga 17/09/2023 - 20/09/2023,58900,,L2,731.66,OK
+,Labex Ecodec,3286,Fonctionnement,2023,Mission,Jan Tuinstra,CREST / CEFM Workshop on Experimental Economics 25/09/2023 - 27/09/2023,59582,,L7,277.4,OK
+,Labex Ecodec,3286,Fonctionnement,2023,Mission,Joseph Tao-Yi Wang,CREST / CEFM Workshop on Experimental Economics 25/09/2023 - 28/09/2023,59576,,L7,0.0,OK
+,Labex Ecodec,3286,Fonctionnement,2023,Mission,Angela Sutan,CREST / CEFM Workshop on Experimental Economics 25/09/2023 - 27/09/2023,59583,,L7,0.0,OK
+,Labex Ecodec,3286,Fonctionnement,2023,Mission,Marc Willinger,CREST / CEFM Workshop on Experimental Economics 25/09/2023 - 27/09/2023,59581,,L7,0.0,OK
+,Labex Ecodec,3286,Fonctionnement,2023,Mission,Michel Raymond,CREST / CEFM Workshop on Experimental Economics 26/09/2023 - 27/09/2023,59580,,L7,258.4,OK
+,Labex Ecodec,3286,Fonctionnement,2023,Commande,Hôtel du Lion,Hébergement workshop CREST/CEFM 26/09/2023-27/09/2023,,E2023027233,L7,1571.52,OK
+,Labex Ecodec,3286,Fonctionnement,2024,Paie,Sofo Kiknadze,Gratification de stage Février 2024,,E2024001639,L1,639.45,OK
+,Labex Ecodec,3286,Fonctionnement,2024,Paie,Elise Playe,Gratification de stage Février 2024,,E2024001641,L1,639.45,OK
+,Labex Ecodec,3286,Fonctionnement,2024,Paie,Sofo Kiknadze,Gratification de stage Janvier 2024,,E2024001638,L1,548.1,OK
+,Labex Ecodec,3286,Fonctionnement,2024,Paie,Elise Playe,Gratification de stage Janvier 2024,,E2024001640,L1,548.1,OK
+,ERC P3OPLE,3300,Fonctionnement,2023,EJ,CASD,Accès aux données FECOHOM Autres coûts directs,,E2023000659,,5334,OK
+,ERC P3OPLE,3300,Fonctionnement,2023,Commande,CITI Program,Inscription cours Manasi Chhabra Autres coûts directs,,E2023022103,,120.55,
+,ERC P3OPLE,3300,Fonctionnement,2023,Commande,Tilburg University,Accès aux données 2022 Coûts indirects,,E2023009516,,2291,OK
+,ERC P3OPLE,3300,Personnel,2022,Paie,Vrinda Sharma,Contrat Assistante de Recherche  01/09/2022 - 31/08/2023,,,,42028.53,
+,ERC P3OPLE,3300,Personnel,2022,Paie,Tristan Duchenne,Contrat CDD 01/09/2022 - 31/08/2025 Coûts indirects,,,,128040,
+,ERC P3OPLE,3300,Personnel,2023,Paie,Manasi Chhabra,Contrat Assistante de Recherche 01/09/2023 - 31/08/2024,,,,45940,
+,ERC P3OPLE,3300,Personnel,2022,Paie,Pauline Rossi,Prime annuelle Coûts indirects,,,,122900,
+,ERC P3OPLE,3300,Personnel,2023,Paie,Zheng Wang,Contrat Post-doctorante 19/06/2023 - 18/06/2024,,,,53030,
+,ERC P3OPLE,3300,Fonctionnement,2023,Mission,Christine Valente,Invitée séminaire et travail sur ERC P3OPLE 11/12/2022 - 16/12/2022,56156,,,193.17,OK
+,ERC P3OPLE,3300,Fonctionnement,2023,Mission,Pauline Rossi,Séminaire au laboratoire THEMA à CYU 09/03/2023,57363,,,136.52,OK
+,ERC P3OPLE,3300,Fonctionnement,2023,Mission,Pauline Rossi,Séminaire Fribourg et Genève 13/03/2023 - 19/03/2023,56792,,,850.68,OK
+,ERC P3OPLE,3300,Fonctionnement,2023,Mission,Pauline Rossi,Visiting UCLA /UCSD 11/10/2023 - 13/11/2023,58412,,,12083.14,Non
+,ERC P3OPLE,3300,Fonctionnement,2023,Mission,Yun Xiao,Collaboration scientifique avec Pauline Rossi 23/04/2023 - 30/04/2023,57375,,,1525.4299999999998,OK
+,ERC P3OPLE,3300,Fonctionnement,2023,Mission,Yun Xiao,Data access and seminar presentation  07-08/02/2024 - 27-29/02/2024,59636,,,1111.25,OK
+,ERC P3OPLE,3300,Fonctionnement,2023,EJ,Oxford University Press,Frais de publication Coûts indirects,,E2023014364,,3815,OK
