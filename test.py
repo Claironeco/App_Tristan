@@ -42,20 +42,39 @@ def export_to_excel(data_frame, output_file_path):
     # Formater la date au format DD/MM/YY
     date_formattee = date_aujourdhui.strftime("%d/%m/%y")   
 
+    print(data_frame.columns)
     # Créer un nouveau classeur Excel
     wb = Workbook()
 
     #Créer une page pour le bilan
-    wb.create_sheet(title="BILAN")
+    bilan_ws=wb.create_sheet(title="BILAN")
+    
+    #En-tête du BILAN 
+    bilan_ws['A3'] = 'BILAN CONVENTIONS CREST / ÉCOLE POLYTECHNIQUE'
+    bilan_ws['A4'] = " ".join(['MAJ',date_formattee])
+    bilan_ws['A7'] = 'CONVENTIONS'
+    bilan_ws['B7'] = 'MONTANTS ALLOUÉS'
+    bilan_ws['F7'] = 'DÉPENSES'
+    bilan_ws['J7'] = 'DISPONIBLES' 
+    bilan_ws['B8'] = 'Fonctionnement'
+    bilan_ws['C8'] = 'Investissement'
+    bilan_ws['D8'] = 'Personnel'
+    bilan_ws['E8'] = 'Total' 
+    bilan_ws['F8'] = 'Fonctionnement'
+    bilan_ws['G8'] = 'Investissement'
+    bilan_ws['H8'] = 'Personnel'
+    bilan_ws['I8'] = 'Total'
+    bilan_ws['J8'] = 'Fonctionnement'
+    bilan_ws['K8'] = 'Investissement'
+    bilan_ws['L8'] = 'Personnel'
+    bilan_ws['M8'] = 'Total'
 
+    # Initialiser le compteur de ligne pour le bilan
+    ligne_bilan = 8
     # Parcourir chaque convention et écrire ses données dans une feuille Excel distincte
-    for convention in data_frame['Libellé'].unique():
+    for convention in data_frame['nPEP_x'].unique():
         # Sélectionner les données de la convention actuelle
-        convention_data = data_frame[data_frame['Libellé'] == convention]
-        # print(convention_data)
-        print(type(convention_data))
-        print(convention_data)
-        print(list(convention_data.columns)) 
+        convention_data = data_frame[data_frame['nPEP_x'] == convention]  
 
         # Créer une nouvelle feuille avec le nom de la convention
         ws = wb.create_sheet(title=convention)
@@ -80,8 +99,8 @@ def export_to_excel(data_frame, output_file_path):
         ws['E11']='Investissement'
         ws['E12']='Personnel'
         #valeur
-        ws['C6']=convention
-        ws['C8']=convention_data.iloc[0]['Dates_d'] #+'-'+convention_data.iloc[0]['Dates_f']
+        ws['C6']=convention_data.iloc[0]['Libellé']
+        ws['C8']=" - ".join([convention_data.iloc[0]['Dates_d'], convention_data.iloc[0]['Dates_f']]) #+'-'+convention_data.iloc[0]['Dates_f']
         ws['C9']=convention_data.iloc[0]['Bénéficiaire_x']
         ws['C10']=convention_data.iloc[0]['Montant alloué'] 
         ws['C11']=convention_data.iloc[0]['M_Fonctionnement']  
@@ -89,16 +108,45 @@ def export_to_excel(data_frame, output_file_path):
         ws['C13']=convention_data.iloc[0]['M_Personnel']
         ws['F6']=convention_data.iloc[0]['nPEP_x']
         ws['F8']=convention_data.iloc[0]['Partenaire'] 
-        ws['F9']=0
-        ws['F10']=0 
-        ws['F11']=0  
-        ws['F12']=0 
-        ws['F13']=0
- 
+        # Calculer la somme totale des valeurs dans la colonne 'Montant de la dépense (HTR)'
+        montant_total = convention_data['Montant de la dépense (HTR)'].sum()
+        # Calculer la somme des valeurs dans la colonne 'Montant de la dépense (HTR)' lorsque 'Nature de la dépense' est égale à 'Fonctionnement'
+        montant_fonctionnement = convention_data.loc[convention_data['Nature de la dépense'] == 'Fonctionnement', 'Montant de la dépense (HTR)'].sum()
+        # Calculer la somme des valeurs dans la colonne 'Montant de la dépense (HTR)' lorsque 'Nature de la dépense' est égale à 'Investissement'
+        montant_investissement = convention_data.loc[convention_data['Nature de la dépense'] == 'Investissement', 'Montant de la dépense (HTR)'].sum()
+        # Calculer la somme des valeurs dans la colonne 'Montant de la dépense (HTR)' lorsque 'Nature de la dépense' est égale à 'Personnel'
+        montant_personnel = convention_data.loc[convention_data['Nature de la dépense'] == 'Personnel', 'Montant de la dépense (HTR)'].sum()
+
+        # Placer les sommes dans les cellules appropriées
+        ws['F9'] = convention_data.iloc[0]['Montant alloué'] - montant_total
+        ws['F10'] = convention_data.iloc[0]['M_Fonctionnement'] - montant_fonctionnement
+        ws['F11']=convention_data.iloc[0]['M_Investissement'] - montant_investissement
+        ws['F12']=convention_data.iloc[0]['M_Personnel'] - montant_personnel 
+        
         # Écrire les données dans la feuille Excel à partir de la ligne 19
-        for r_idx, row in enumerate(dataframe_to_rows(convention_data, index=False, header=True), 19):
+        for r_idx, row in enumerate(dataframe_to_rows(convention_data[['Nature de la dépense', "Année d'imputation", 'Type de dépense', 'Bénéficiaire_y', 'Libellé.1', 'Numéro OM', 'Numéro EJ', 'Numéro Ligne', 'Montant de la dépense (HTR)', 'Solde']], index=False, header=True), 19):
+            # Renommer les colonnes
+            row = ['Bénéficiaire' if col == 'Bénéficiaire.y' else 'Libellé' if col == 'Libellé.1' else col for col in row]
             for c_idx, value in enumerate(row, 1):
                 ws.cell(row=r_idx, column=c_idx, value=value)
+
+        #Compléter la page de BILAN 
+        bilan_ws[f'A{ligne_bilan+1}']=convention_data.iloc[0]['Libellé']
+        bilan_ws[f'B{ligne_bilan+1}']=convention_data.iloc[0]['M_Fonctionnement']
+        bilan_ws[f'C{ligne_bilan+1}']=convention_data.iloc[0]['M_Investissement']
+        bilan_ws[f'D{ligne_bilan+1}']=convention_data.iloc[0]['M_Personnel']
+        bilan_ws[f'E{ligne_bilan+1}']=convention_data.iloc[0]['Montant alloué']
+        bilan_ws[f'F{ligne_bilan+1}']=montant_fonctionnement
+        bilan_ws[f'G{ligne_bilan+1}']=montant_investissement
+        bilan_ws[f'H{ligne_bilan+1}']=montant_personnel 
+        bilan_ws[f'I{ligne_bilan+1}']=montant_total
+        bilan_ws[f'J{ligne_bilan+1}']=convention_data.iloc[0]['M_Fonctionnement'] - montant_fonctionnement
+        bilan_ws[f'K{ligne_bilan+1}']=convention_data.iloc[0]['M_Investissement'] - montant_investissement
+        bilan_ws[f'L{ligne_bilan+1}']=convention_data.iloc[0]['M_Personnel'] - montant_personnel 
+        bilan_ws[f'M{ligne_bilan+1}']=convention_data.iloc[0]['Montant alloué']- montant_total
+
+        #La prochaine convention sera sur la ligne suivante 
+        ligne_bilan = ligne_bilan +1
 
     # Supprimer la feuille par défaut "Sheet"
     wb.remove(wb['Sheet'])
@@ -226,14 +274,15 @@ def enregistrer_operation_page():
     # Charger les données des conventions
     convention_df = load_data("convention")
     
-    # Créer une liste de conventions pour le menu déroulant
-    convention_names = convention_df['Libellé'].tolist()
+    # Créer une liste de conventions avec les numéros PEP pour le menu déroulant
+    convention_names = [f"{libelle} ({nPEP})" for libelle, nPEP in zip(convention_df['Libellé'], convention_df['nPEP'])]
 
     # Menu déroulant pour choisir la convention
     selected_convention = st.selectbox("Choisir une convention :", convention_names, index=0, format_func=lambda x: x.title(), key="convention_selectbox", help="Commencez à taper pour rechercher")
 
-    # Obtenir le numéro PEP de la convention sélectionnée
-    selected_pep_number = convention_df.loc[convention_df['Libellé'].str.title() == selected_convention.title(), 'nPEP'].iloc[0]
+    # Extraire le numéro PEP et la convention de la convention sélectionnée
+    selected_convention1 = selected_convention.split(' (')[0]
+    selected_pep_number = selected_convention.split(' (')[1].split(')')[0]
 
     # Obtenir les noms de colonnes du DataFrame des opérations
     logs_df = load_data("logs")
@@ -248,9 +297,6 @@ def enregistrer_operation_page():
         elif column == 'nPEP':  # Afficher le numéro PEP de la convention sélectionnée
             st.text_input("nPEP", value=selected_pep_number, key="pep_number_input", disabled=True)
             user_inputs['nPEP'] = selected_pep_number
-        elif column == 'Libellé.1': 
-           #Ne rien faire du coup
-           None
         else:
             user_input = st.text_input(f"Saisir {column}", "")
             user_inputs[column] = user_input
@@ -265,35 +311,6 @@ def enregistrer_operation_page():
             st.success("Opération sur la convention enregistrée avec succès !")
         else:
             st.warning("Veuillez remplir tous les champs avant d'enregistrer l'opération.")
-
-# def enregistrer_operation_page():
-#     st.title("Enregistrer une opération sur une convention")
-#     st.write("Veuillez remplir les informations suivantes :")
-
-#     # Obtenir les noms de colonnes du DataFrame
-#     logs_df = load_data("logs")
-#     column_names = logs_df.columns.tolist()
-#     user_inputs = {}
-
-#     # Afficher les champs de saisie pour chaque colonne
-#     for column in column_names:
-#         if column == 'Date':  # Remplir automatiquement la date
-#             user_input = st.text_input("Date", value=datetime.now().strftime("%Y-%m-%d %H:%M:%S"), key="date_input", disabled=True)
-#             user_inputs['Date'] = user_input
-#         else:
-#             user_input = st.text_input(f"Saisir {column}", "")
-#             user_inputs[column] = user_input
-
-#     # Bouton pour enregistrer l'opération
-#     if st.button("Enregistrer"):
-#         # Vérifier que tous les champs sont remplis
-#         if all(user_inputs.values()):
-#             # Créer un DataFrame avec les nouvelles données
-#             new_data = pd.DataFrame([user_inputs])
-#             save_data("logs", pd.concat([logs_df, new_data], ignore_index=True))
-#             st.success("Opération sur la convention enregistrée avec succès !")
-#         else:
-#             st.warning("Veuillez remplir tous les champs avant d'enregistrer l'opération.") 
 
 # Fonction pour afficher la page "Modifier une convention"
 def modifier_convention_page():

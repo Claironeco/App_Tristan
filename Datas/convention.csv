@@ -1,10 +1,24 @@
 Libellé,Dates_d,Dates_f,nPEP,Bénéficiaire,Partenaire,Montant alloué,M_Fonctionnement,M_Investissement,M_Personnel
-Convention1, , , 15, , , , , ,
-Convention2, , , , , , , , ,
-Convention3, , , , , , , , ,
-Convention4,fmklklfmds,kmlfklmfds,fkldsklfds,lklkmsdfklms,lmkfsdlkmfds,klfsdmkflsd,lkfsdlkmfd,lkfsdklfds,Claire gère
-Convention5,,,12,,,,,,
-Convention6,,,,,,,,,
-Convention7,,,,,,,,,
-Convention6,,,,,,,,,
-Claire,kldk,fkldskl,01,lkdkldf,klfdslkf,lfmkdslkf,fdlmk,fsdlkm,fdslmk
+Subvention d'État,01/01/2024,31/12/20234,SE,CREST,École polytechnique,48000,33000,15000,0
+Chaire Marjoulet,01/10/2023,01/07/2027,L029,Benoit Schmutz,,158000,38000,0,120000
+Recrutement Sara Signorelli (reliquats 2023),07/09/2023,31/12/2026,R23E,Sara Signorelli,,128673.52,0,0,128673.52
+Programme PAUSE - Saeed Najafi Zanganeh,31/08/2023,31/03/2024,3491,Saeed Najafi ,Collège de France,14300,0,0,14300
+Convention de financement Léa Bou Sleiman,01/09/2022,31/08/2023,3325,,Institut Europlace de Finance,37369.46,1871.21,0,35498.25
+Labex ECODEC 3048 RD 108,01/09/2020,31/12/2024,3048,,GENES,208000,0,0,200000
+Labex ECODEC RD 115 L1,01/01/2020,31/12/2024,3180,,GENES,550000,10000,0,540000
+Labex ECODEC ,01/01/2020,31/12/2024,3355 RD 122,,GENES,76000,8000,0,76000
+Direction Générale de l'Armement,03/10/2022,02/10/2025,3378,Clément Montes,Direction Générale de l'Armement,120000,0,0,120000
+IAESE+ E,01/10/2023,01/07/2027,L036,Olivier Gossner,,120000,0,0,120000
+POLARIS,01/10/2023,01/07/2027,CIEDS 3479,Olivier Gossner,,826154,103000,0,723154
+Chaire Blockchain & B2B Platforms,24/01/2022,31/11/2024,BB2B,Julien Prat,,1384500,119798.20999999999,21695.86,1021248.03
+EUR DATA EFM RD 6,01/08/2023,31/08/2024,3464,Laurent Linnemer,GENES,60000,60000,0,0
+Labex ECODEC RD 118,01/01/2020,31/12/2024,3287,L4 / L5 / L8 / L10,ANR,104000,67000,2000,31000
+Labex ECODEC RD 115 L3 / L4,02/05/2021,31/12/2023,3182,,ANR,10400,9305.560000000001,0,0
+Labex ECODEC RD 115 L2,01/09/2021,31/08/2024,3181,,ANR,432000,3420,0,428600
+TOTAL,15/03/2021,14/09/2026,3177,Patricia Crifo,ANR,150500,4767.5,0,145732.5
+Labex ECODEC RD 111,01/01/2020,31/12/2024,3141,L1 - L2 - L3 - L4,ANR,249810,170245.05,2000,77564.95
+Labex ECODEC RD 122,01/09/2022,31/12/2024,3356 RD 122,,ANR,84000,8000,,76000
+ANR TAXREV,01/10/2020,30/09/2025,3088,Pierre Boyer,ANR,299160,51328.69,6048.05,192000
+EUR DATA EFM,01/08/2020,31/08/2023,3357,Laurent Linnemer,ANR,50000,50000,0,
+Labex Ecodec,01/01/2020,31/12/2024,3286,L1 - L2 - L3 - L6 - L7 - L9,ANR,47000,37000,10000,
+ERC P3OPLE,01/09/2022,31/08/2027,3300,Pauline Rossi ,Commission européenne,1105303,155279.4,728963,
