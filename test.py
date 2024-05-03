@@ -24,15 +24,8 @@ def merge_convention_logs(convention_file_path, logs_file_path):
     logs_df = pd.read_csv(logs_file_path)
 
     # Fusionner les données en utilisant une jointure gauche sur la colonne 'Libellé'
-    merged_df = pd.merge(convention_df, logs_df, on='Libellé', how='left')
-
-    # Calculer le bilan des dépenses pour chaque convention
-    # balance_df = merged_df.groupby('Libellé')['Montant de la dépense (HTR)'].sum().reset_index()
-    # balance_df.rename(columns={'Montant': 'Total_Depenses'}, inplace=True)
-
-    # Fusionner le bilan des dépenses avec les données de convention
-    # final_df = pd.merge(merged_df, balance_df, on='Libellé', how='left')
-
+    merged_df = pd.merge(convention_df, logs_df, on='Libellé', how='left') 
+    
     return merged_df # final_df
  
 def export_to_excel(data_frame, output_file_path):
@@ -203,10 +196,18 @@ def convert_excel_to_convention_logs(excel_file_path,output_file_path):
 ########################################
 
 def main():
-    st.sidebar.title("Navigation")
+    #Authentification
+    if not st.session_state.get("logged_in"):
+        login_page()
+        return
 
+    st.sidebar.title("Navigation") 
+    
     # Afficher les boutons pour chaque page
-    page = st.sidebar.radio("Aller à :", ("Accueil", "Créer une convention", "Modifier une convention", "Enregistrer une opération", "Modifier une opération sur une convention", "Fusionner dans un excel", "Convertir en log"))
+    if st.session_state.access_level == "Admin":
+        page = st.sidebar.radio("Aller à :", ("Accueil", "Créer une convention", "Modifier une convention", "Enregistrer une opération", "Modifier une opération sur une convention", "Fusionner dans un excel", "Convertir en log"))
+    elif st.session_state.access_level == "Gueux":
+        page = st.sidebar.radio("Aller à :", ( "Enregistrer une opération", "Modifier une opération sur une convention"))
 
     # Afficher la page sélectionnée
     if page == "Accueil":
@@ -227,6 +228,29 @@ def main():
 #####################################        
 ### Contenu des différentes pages ###
 #####################################
+
+#Authentique 
+def login_page():
+    st.title("Authentification")
+    username = st.text_input("Nom d'utilisateur")
+    password = st.text_input("Mot de passe", type="password") 
+    # Charger les données des utilisateurs à partir du fichier CSV
+    users_info = pd.read_csv("Datas/acces.csv")
+    
+    # Afficher les informations des utilisateurs (pour le débogage)
+    st.write(users_info)
+    
+    if st.button("Se Connecter"):
+        # Vérifier si l'utilisateur et le mot de passe existent dans les données chargées
+        if ((users_info['Id'] == username) & (users_info['password'] == password)).any():
+            st.success("Connexion réussie !")
+            st.session_state.user_id = username
+            st.session_state.access_level = users_info.loc[users_info['Id'] == username, 'level_access'].iloc[0]
+            st.session_state.logged_in = True  # Marquer l'utilisateur comme connecté
+            st.rerun()
+        else:
+            st.error("Identifiants invalides.")
+
 
 # Fonction pour afficher la page "Accueil"
 def accueil_page():
@@ -452,20 +476,16 @@ def merge_convention_logs_page():
     st.title("Fusion des données Convention et Logs")
 
     # Afficher les champs de téléchargement des fichiers
-    convention_file = st.file_uploader("Sélectionner le fichier convention.csv", type=['csv'])
-    logs_file = st.file_uploader("Sélectionner le fichier logs.csv", type=['csv'])
+    convention_file = load_data("convention")
+    logs_file = load_data("logs")
 
     if convention_file is not None and logs_file is not None:
         # Enregistrer les fichiers téléchargés temporairement
-        convention_temp_path = "convention_temp.csv"
-        logs_temp_path = "logs_temp.csv"
-        with open(convention_temp_path, 'wb') as f:
-            f.write(convention_file.getvalue())
-        with open(logs_temp_path, 'wb') as f:
-            f.write(logs_file.getvalue())
+        convention_temp_path = convention_file
+        logs_temp_path = logs_file 
 
         # Fusionner les fichiers et calculer le bilan des dépenses
-        merged_data = merge_convention_logs(convention_temp_path, logs_temp_path)
+        merged_data = merge_convention_logs("Datas/convention.csv", "Datas/logs.csv")
 
         # Sélectionner le chemin de sortie pour le fichier Excel
         output_file_path = st.text_input("Nom du fichier Excel de sortie :", "conventions_logs_output.xlsx")
@@ -477,11 +497,7 @@ def merge_convention_logs_page():
 
         # Afficher les données fusionnées dans Streamlit
         st.subheader("Données fusionnées Convention et Logs :")
-        st.write(merged_data)
-
-        # Supprimer les fichiers temporaires
-        os.remove(convention_temp_path)
-        os.remove(logs_temp_path)
+        st.write(merged_data) 
 
 
 # Fonction pour Convertir un excel en fichier convention et log
